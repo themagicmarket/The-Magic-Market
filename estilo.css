@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+    background: rgb(rgb(0, 0, 0));
+    color: rgb(239, 241, 245);
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+<h1>{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+
+}
+/*
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background: orange;
+    width: 300px;
+    height: 300px;
+    border: 2pxs;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.real{
+    height: 400px;
+    background: white;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+.real-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.real-detalles img{
+    height: 80%;
+}
+
+.header{ 
+    background: rgb(38, 3, 95);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.header li{
+    height: inherit;
+}
+
+.header a { 
+    color: #ffffff;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal {
+    background: rgb(255, 255, 255);
+    background-image: url('img/elreal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Robot',sans-serif;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    padding: 125px;
+    height: 350px;
+}
+
+
+
+.principal img{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    border: 25px solid wheat;
+    margin: 30px;
+
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40pxs;
+    background: rgb(255, 238, 0);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+.second {
+    background: rgb(21, 1, 94);
+    text-align: center;
+    padding: 50p;
+    font-size: 20px;
+    padding:70px;
+
+}
+.second h2{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.second p{
+    margin-bottom: 20px;
+}
+/*agustes del primer puesto*/
+.dos{
+    height: 200px;
+    background: rgb(241, 217, 217);
+    display: flex;
+    color: rgb(51, 28, 87);
+}
+
+.dos-detalles{
+    width:15%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    text-align: center;
+}
+
+.dos-detalles img{
+    height:80%;
+}
+.dos1{
+    height: 400px;
+    background:  rgb(241, 217, 217);
+    display: flex;
+    color:  rgb(51, 28, 87);
+}
+.dos1-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.dos1-detalles img{
+    height: 80%;
